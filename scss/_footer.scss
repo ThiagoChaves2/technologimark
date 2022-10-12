@@ -1,0 +1,23 @@
+footer{
+    background-color: $thirdColor;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+//Design responsive
+@media screen and (max-width: 974px){
+    .header{
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+    }
+    .header img{
+        margin: 20px;
+        border-radius: 10px;
+    }
+    .header img:hover{
+        transform: translate(40px, -30px);
+            transition: transform 1s;
+    }
+};

@@ -1,0 +1,14 @@
+*Hacer responsive el sitio.
+*Crear maps(colores,etc.)
+*poner boton hamburguesa de bootstrap.
+*Organizar mejor seccion de "_content".
+*Ver ramas de git.
+*Hacer archivo .gitignore en git hub.
+*Agregar carpeta "Node Modules" a .gitignore. (no se hacerlo.)
+*Crear contenido para la pagina web (img,
+                                     icono de las pestañas web,etc)
+*Poner texto alternativo a las imagenes.
+*Optimizar imagenes.
+*Cambiar imagenes jpeg a webp.
+*Hacer form y el map juntos con grids.
+*Hacer h1 descriptivo de la pagina.

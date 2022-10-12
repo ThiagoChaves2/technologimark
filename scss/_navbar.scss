@@ -1,0 +1,28 @@
+//nesting
+nav{
+	background-color: $thirdColor;
+	font-family: $fontMain;
+	padding: 4px 30px;
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	ul{
+		list-style: none;
+        display: flex;
+        li{
+        	padding-left: 15px;
+        	a{
+        		color:$primaryColor;
+	            text-decoration: none;
+	            font-size:$textNav;
+	            &:hover{
+	            	color:$secundaryColor;
+	            }
+        	}
+        }
+	}
+}

@@ -1,17 +1,144 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 2 | @import "_commons";
- *   |         ^^^^^^^^^^
- *   '
- *   scss\main.scss 2:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @import \"_commons\";\d\a   \2502          ^^^^^^^^^^\a   \2575 \a   scss\\main.scss 2:9  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  background-color: black;
+  font-family: "Oswald", sans-serif;
+  padding: 4px 30px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  padding-left: 15px;
+}
+nav ul li a {
+  color: orange;
+  text-decoration: none;
+  font-size: 2rem;
+}
+nav ul li a:hover {
+  color: darkorange;
+}
+
+.header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+.header img {
+  margin: 20px;
+  border-radius: 10px;
+}
+.header img:hover {
+  transform: translate(40px, -30px);
+  transition: transform 1s;
+}
+
+.transform:hover {
+  transform: translate(50px, -40px);
+  transition: transform 1s;
+}
+
+.novedades__articulo {
+  width: 90%;
+  height: auto;
+  margin: 20px 50px 50px 70px;
+  padding: 20px 5px;
+  border-top: solid darkorange 3px;
+}
+
+.textCenter {
+  text-align: center;
+  font-size: 30px;
+  color: darkorange;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+}
+
+form {
+  padding: 4px 30px;
+}
+
+.form-flex {
+  display: flex;
+  margin: 20px;
+}
+
+#contenedor {
+  width: 100%;
+  height: 300px;
+  border: solid 1px none;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+}
+
+#contenedor div {
+  width: 200px;
+  height: 200px;
+}
+
+.basic-caja, .caja3, .caja2, .caja1 {
+  background-color: orange;
+  text-align: center;
+  margin: 20px;
+}
+
+.caja1 {
+  top: 100px;
+  left: 50px;
+}
+
+.caja2 {
+  top: 30px;
+  left: 70px;
+}
+
+.caja3 {
+  top: 50px;
+  left: 20px;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 974px) {
+  .header {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  .header img {
+    margin: 20px;
+    border-radius: 10px;
+  }
+  .header img:hover {
+    transform: translate(40px, -30px);
+    transition: transform 1s;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

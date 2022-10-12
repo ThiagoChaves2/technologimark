@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Technologimark</title>
-	<link rel="shortcut icon" href="img/technologimark.jpeg" type="image/x-icon">
-	<link rel="stylesheet" href="css/style.css">
+	<meta name="description" content="Servicios Tecnologicos, (Arreglo de celulares,Pc´s,Notebooks y mas.. Tambien ofrecemos Desarrollo de paginas web y Venta de accesorios)">
+	<meta name="keywords" content="Servicio tecnico, Desarrollo de paginas web, Venta de accesorios, Cursos">
+	<meta name="author" content="Thiago Chaves">
+	<meta name="robots" content="index,follow">
+	<title>Technologimark - Servicios Tecnologicos</title>
+	<link rel="shortcut icon" href="img/logo.jpeg" type="image/x-icon">
+	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.rtl.min.css" integrity="sha384-OXTEbYDqaX2ZY/BOaZV/yFGChYHtrXH2nyXJ372n2Y8abBhrqacCEe+3qhSHtLjy" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.rtl.min.css"integrity="sha384-OXTEbYDqaX2ZY/BOaZV/yFGChYHtrXH2nyXJ372n2Y8abBhrqacCEe+3qhSHtLjy" crossorigin="anonymous">
 </head>
 <body>
-	<nav>
+   <div class="responsive">
+    <nav>
 		<a href="index.html">
 		   <img src="img/technologimark.jpeg" alt="logo de Technologimark" width="200px">
 	    </a>
@@ -20,10 +25,6 @@
         	</li>
         	<li>
         	  <a href="./pages/cursos.html">Cursos</a>
-        		<ul>
-        			<li><a href="">Arreglo de Celulares</a></li>
-        			<li><a href="">Arreglo de Pc´s</a></li>
-        		</ul>
         	</li>
         	<li>
         		<a href="./pages/ventas.html">Ventas</a>
@@ -35,42 +36,76 @@
 	</nav>
 
 	<header class="header">
-		<img src="img/imagen.png" alt="imagen para entrar a la seccion de Reparacion de Dispositivos">
-		<img src="img/imagen.png" alt="imagen para entrar a la seccion de Ventas">
-		<img src="img/imagen.png" alt="imagen para entrar a la seccion de Cursos">
+		<img src="img/servicioTec.jpeg" alt="imagen para entrar a la seccion de Reparacion de Dispositivos" width="250px">
+		<img src="img/ventas.jpeg" alt="imagen para entrar a la seccion de Ventas" width="250px">
+		<img src="img/cursos.jpeg" alt="imagen para entrar a la seccion de Cursos" width="250px">
 	</header>
 	
 	<main>
 		<section>
 			<article class="novedades__articulo">
-			  <h1 class="textCenter">Contacto</h1>
-			  <p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Obcaecati corporis reprehenderit qui vel, quasi, repellat, impedit animi explicabo distinctio delectus omnis, magnam. Officiis esse eius impedit cupiditate ipsa saepe, inventore.</p>
+			  <h2 class="textCenter">Contacto</h2><b>
+			  <p>Hola buenas!! Bienvenido a la seccion de contacto, abajo encontraras un map con nuestra ubicacion, un formulario para mandar tu datos y las redes sociales por las cuales te puedes comunicar con nosotros..</p></b>
 		    </article>
 		</section>
-		<section>
-			<form action="" id="contacto">
-				<label for="name" class="textPink">Nombre</label>
-				<input type="text" id="name" placeholder="Thiago Chaves">
-				<br>
-				<label for="mail">Email</label>
-				<input type="email" id="mail">
-				<br>
-				<label for="tel">Telefono</label>
-				<input type="tel" id="tel">
-				<br>
-				<label for="mensaje">Deja tu mensaje</label><br>
-				<textarea name="" id="mensaje" cols="30" rows="10"></textarea>
-				<input type="reset" value="Cancelar">
-				<input type="submit" value="Enviar">
-			</form>
+		<section class="form-flex">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.705555702504!2d-58.435330886731705!3d-34.61160638045742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca69e8651441%3A0x1acf64b2a946446e!2sOtamendi%20449%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1662226872670!5m2!1ses!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			
+           <form class="row g-3">
+	           <div class="row g-3">
+                  <div class="col">
+                     <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                  </div>
+                  <div class="col">
+                     <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label"><b>Email</b></label>
+                  <input type="email" class="form-control" id="inputEmail4">
+               </div>
+               <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label"><b>Contraseña</b></label>
+                  <input type="password" class="form-control" id="inputPassword4">
+               </div>
+               <div class="col-12">
+                  <label for="inputAddress" class="form-label"><b>Direccion</b></label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Av.Rivadavia 2049">
+               </div>
+               <div class="col-12">
+                  <label for="inputAddress2" class="form-label"><b>2 Direccion</b></label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, estudio, o piso">
+               </div>
+               <div class="col-md-6">
+                  <label for="inputCity" class="form-label"><b>Ciudad</b></label>
+                  <input type="text" class="form-control" id="inputCity">
+               </div>
+               <div class="col-md-4">
+                  <label for="inputState" class="form-label"><b>Provincia</b></label>
+                   <select id="inputState" class="form-select">
+                     <option selected><b>Choose...</b></option>
+                     <option selected><b>Cordoba</b></option>
+                   </select>
+               </div>
+               <div class="col-12">
+                  <div class="form-check">
+                     <input class="form-check-input" type="checkbox" id="gridCheck">
+                     <label class="form-check-label" for="gridCheck">
+              <b>Click aqui!</b>
+                     </label>
+                  </div>
+               </div>
+               <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+               </div>
+           </form>
 		</section>
 	</main>
 
 	<footer class="background-black">
 
 		<a href="#" target="_blank">
-			<img src="img/whatsapp.png" alt="icono de WhatsApp" width="90px">
+			<img src="img/whatsapp.png" alt="icono de WhatsApp" width="50px">
 		</a>
 
 		<a href="https://www.instagram.com/technologimark/" target="_blank">
@@ -97,6 +132,7 @@
 			<img src="img/facebook.png" alt="icono de Facebook" width="50px">
 		</a>
 	</footer>
+   </div>
 
 	<script src="js/wow.min.js"></script>
     <script>
@@ -105,4 +141,3 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
-</html>

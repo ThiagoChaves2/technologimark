@@ -1,0 +1,74 @@
+.header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    img{
+        margin: 20px;
+        border-radius: 10px;
+        &:hover{
+            transform: translate(40px, -30px);
+            transition: transform 1s;
+        }
+    }
+}
+.transform:hover{
+    transform: translate(50px, -40px);
+    transition: transform 1s;
+}
+.novedades__articulo{
+    width: 90%;
+    height: auto;
+    margin: 20px 50px 50px 70px;
+    padding: 20px 5px;
+    border-top: solid $secundaryColor 3px;
+}
+.textCenter{
+    text-align: center;
+    font-size: $textTi;
+    color: $secundaryColor;
+}
+p{
+	text-align: center;
+	font-size: $textP;
+}
+form{
+    padding: 4px 30px;
+}
+.form-flex{
+    display: flex;
+    margin: 20px;
+}
+
+//Page "Nosotros"
+#contenedor{
+	width: 100%;
+	height: 300px;
+	border: solid 1px none;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: black;
+}
+#contenedor div{
+	width: 200px;
+	height: 200px;
+}
+.basic-caja{
+    background-color:$primaryColor;
+    text-align: center;
+    margin: 20px;
+}
+.caja1{
+    @extend .basic-caja;
+    top: 100px;
+    left: 50px;
+}
+.caja2{
+    @extend .basic-caja;
+    top: 30px;
+    left: 70px;
+}
+.caja3{
+    @extend .basic-caja;
+    top: 50px;
+    left: 20px;
+}
