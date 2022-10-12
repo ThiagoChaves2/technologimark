@@ -1,6 +1,7 @@
 *Hacer responsive el sitio.
 *Crear maps(colores,etc.)
 *poner boton hamburguesa de bootstrap.
+*Poner link de red social (whatsapp).
 *Organizar mejor seccion de "_content".
 *Ver ramas de git.
 *Hacer archivo .gitignore en git hub.
@@ -12,3 +13,4 @@
 *Cambiar imagenes jpeg a webp.
 *Hacer form y el map juntos con grids.
 *Hacer h1 descriptivo de la pagina.
+*hacer archivo read.me.
