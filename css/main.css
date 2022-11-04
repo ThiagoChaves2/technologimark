@@ -50,11 +50,6 @@ nav ul li a:hover {
   transition: transform 1s;
 }
 
-.transform:hover {
-  transform: translate(50px, -40px);
-  transition: transform 1s;
-}
-
 .novedades__articulo {
   width: 90%;
   height: auto;
@@ -62,25 +57,22 @@ nav ul li a:hover {
   padding: 20px 5px;
   border-top: solid darkorange 3px;
 }
-
-.textCenter {
+.novedades__articulo h2 {
   text-align: center;
   font-size: 30px;
   color: darkorange;
 }
-
-p {
+.novedades__articulo h2 p {
   text-align: center;
   font-size: 15px;
 }
 
-form {
-  padding: 4px 30px;
-}
-
-.form-flex {
+.section {
   display: flex;
   margin: 20px;
+}
+.section form {
+  padding: 4px 30px;
 }
 
 #contenedor {
@@ -121,24 +113,24 @@ form {
 footer {
   background-color: black;
   display: flex;
-  padding: 20px;
+  padding: 30px;
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 974px) {
-  .header {
-    display: flex;
-    padding: 20px;
-    justify-content: space-around;
-  }
-  .header img {
-    margin: 20px;
-    border-radius: 10px;
-  }
-  .header img:hover {
-    transform: translate(40px, -30px);
-    transition: transform 1s;
-  }
-}
+/*@media screen and (max-width: 974px){
+    .header{
+        display: flex;
+        padding: 20px;
+        justify-content: space-around;
+    }
+    .header img{
+        margin: 20px;
+        border-radius: 10px;
+    }
+    .header img:hover{
+        transform: translate(40px, -30px);
+            transition: transform 1s;
+    }
+};*/
 
 /*# sourceMappingURL=main.css.map */

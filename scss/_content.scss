@@ -1,43 +1,44 @@
 .header{
-    display: flex;
-    padding: 20px;
-    justify-content: space-around;
-    img{
-        margin: 20px;
-        border-radius: 10px;
-        &:hover{
-            transform: translate(40px, -30px);
-            transition: transform 1s;
-        }
-    }
+         display: flex;
+         padding: 20px;
+         justify-content: space-around;
+            img{
+                 margin: 20px;
+                 border-radius: 10px;
+                    &:hover{
+                             transform: translate(40px, -30px);
+                             transition: transform 1s;
+                    }
+            }
+       
 }
-.transform:hover{
-    transform: translate(50px, -40px);
-    transition: transform 1s;
-}
+
 .novedades__articulo{
-    width: 90%;
-    height: auto;
-    margin: 20px 50px 50px 70px;
-    padding: 20px 5px;
-    border-top: solid $secundaryColor 3px;
+           width: 90%;
+           height: auto;
+           margin: 20px 50px 50px 70px;
+           padding: 20px 5px;
+           border-top: solid $secundaryColor 3px;
+              h2{
+                  text-align: center;
+                  font-size: $textTi;
+                  color: $secundaryColor;
+                    p{
+                       text-align: center;
+                       font-size: $textP;
+                    }
+              }
 }
-.textCenter{
-    text-align: center;
-    font-size: $textTi;
-    color: $secundaryColor;
+      
+.section{
+          display: flex;
+          margin: 20px;
+            form{
+                  padding: 4px 30px;
+            }
 }
-p{
-	text-align: center;
-	font-size: $textP;
-}
-form{
-    padding: 4px 30px;
-}
-.form-flex{
-    display: flex;
-    margin: 20px;
-}
+
+
 
 //Page "Nosotros"
 #contenedor{

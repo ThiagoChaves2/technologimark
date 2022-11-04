@@ -1,12 +1,12 @@
 footer{
-    background-color: $thirdColor;
-    display: flex;
-    padding: 20px;
-    justify-content: space-evenly;
+        background-color: $thirdColor;
+        display: flex;
+        padding: 30px;
+        justify-content: space-evenly;
 }
 
 //Design responsive
-@media screen and (max-width: 974px){
+/*@media screen and (max-width: 974px){
     .header{
         display: flex;
         padding: 20px;
@@ -20,4 +20,4 @@ footer{
         transform: translate(40px, -30px);
             transition: transform 1s;
     }
-};
+};*/
