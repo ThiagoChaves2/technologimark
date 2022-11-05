@@ -4,17 +4,11 @@
 *Organizar mejor seccion de "_content".
 *Ver ramas de git.
 *Eliminar rama main.
-*Hacer archivo .gitignore en git hub.
-*Agregar carpeta "Node Modules" a .gitignore. (no se hacerlo.)
 *Crear contenido para la pagina web (img,
                                      icono de las pestañas web,etc)
-*Poner texto alternativo a las imagenes.
-*Optimizar imagenes.
-*Cambiar imagenes jpeg a webp.
+*Optimizar imagenes (de jpeg a webp).
 *Hacer form y el map juntos con grids.
-*Hacer h1 descriptivo de la pagina.
-*hacer archivo read.me.
-*Hacer github pages.
 *Ver estilos en linea y eliminarlo.
-*Una etiqueta h1 en cada html.
-*Mas contenido.
+*Pagar dominio en "Go daddy" para .com o en "nic.ar" para el .com.ar.
+*Pagar hosting (hostinger,etc.)
+*Hacer linkedin.

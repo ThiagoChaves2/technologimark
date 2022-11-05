@@ -19,14 +19,14 @@
            margin: 20px 50px 50px 70px;
            padding: 20px 5px;
            border-top: solid $secundaryColor 3px;
-              h2{
+              h1{
                   text-align: center;
                   font-size: $textTi;
                   color: $secundaryColor;
-                    p{
-                       text-align: center;
-                       font-size: $textP;
-                    }
+                     p{
+                        text-align: center;
+                        font-size: $textP;
+                     }
               }
 }
       
@@ -41,35 +41,46 @@
 
 
 //Page "Nosotros"
-#contenedor{
-	width: 100%;
-	height: 300px;
-	border: solid 1px none;
-	display: flex;
-	justify-content: space-evenly;
-	background-color: black;
+.header_nosotros{
+         display: flex;
+         padding: 20px;
+         justify-content: space-around;
+            img{
+                 margin: 20px;
+                 border-radius: 10px;
+            }
 }
-#contenedor div{
-	width: 200px;
-	height: 200px;
+
+.main_nosotros{
+    section{
+             p{
+                display: flex;
+                justify-content: space-around;
+             }
+    }
 }
-.basic-caja{
-    background-color:$primaryColor;
+
+.section_nosotros{
+          h1{
+              text-align: center;
+              font-size: $textTi;
+              color: $secundaryColor;
+              margin-top: 20px;
+          }
+}
+
+.textCenter{
     text-align: center;
-    margin: 20px;
+    font-size: $textP;
+    padding: 20px;
 }
-.caja1{
-    @extend .basic-caja;
-    top: 100px;
-    left: 50px;
-}
-.caja2{
-    @extend .basic-caja;
-    top: 30px;
-    left: 70px;
-}
-.caja3{
-    @extend .basic-caja;
-    top: 50px;
-    left: 20px;
+
+
+//Page "Cursos"
+.header_cursos{
+    h1{
+        text-align: center;
+        color: $secundaryColor;
+        font-size: $textTi;
+    }
 }
